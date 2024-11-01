@@ -29,6 +29,7 @@ def juego_adivinanza():
                 print(
                     f"¡Felicitaciones has ganado! El número {adivinanza} es el secreto y lo has logrado en {intentos} intentos."
                 )
+                adivinado = True
         else:
             print("Por favor introduzca un número válido entre el 1 al 100")
 
